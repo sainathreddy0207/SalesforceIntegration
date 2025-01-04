@@ -7,24 +7,24 @@ public class OpenCageReverseResponseWrapper{
 		public geometry geometry;
 	}
 	public class components {
-		public String city;	//Hanover
-		public String city_district;	//Vahrenwald-List
-		public String continent;	//Europe
-		public String country;	//Germany
-		public String country_code;	//de
-		public String county;	//Region Hannover
-		public String house_number;	//2
-		public String office;	//Design Offices
-		public String political_union;	//European Union
-		public String postcode;	//30165
-		public String road;	//Philipsbornstraße
-		public String state;	//Lower Saxony
-		public String state_district;	//NI
-		public String suburb;	//Vahrenwald
+		public String city;	
+		public String city_district;	
+		public String continent;	
+		public String country;	
+		public String country_code;	
+		public String county;	
+		public String house_number;	
+		public String office;	
+		public String political_union;	
+		public String postcode;	
+		public String road;	
+		public String state;	
+		public String state_district;	
+		public String suburb;	
 	}
-	class geometry {
-		public Double lat;	//52.387783
-		public Double lng;	//9.7334394
+	public class geometry {
+		public Double lat;	
+		public Double lng;	
 	}
 	
 }
